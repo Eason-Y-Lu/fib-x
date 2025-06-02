@@ -40,9 +40,9 @@
       "cacheVariables": {
         "CMAKE_BUILD_TYPE": "Release",
         "CMAKE_C_COMPILER": "clang",
-        "CMAKE_C_FLAGS": "-D_FORTIFY_SOURCE=3 -O3 -std=c23 -Wall -Wextra -Wpedantic -Wno-unused-command-line-argument -static-libgcc -static-libstdc++ -fuse-ld=lld -fPIC -fPIE -flto -fno-reorder-blocks-and-partition -Wl,--emit-relocs",
+        "CMAKE_C_FLAGS": "-D_FORTIFY_SOURCE=3 -O3 -std=c23 -Wall -Wextra -Wpedantic -Wno-unused-command-line-argument -static-libgcc -static-libstdc++ -fuse-ld=lld -fPIC -fPIE -flto -Wl,--emit-relocs",
         "CMAKE_CXX_COMPILER": "clang++",
-        "CMAKE_CXX_FLAGS": "-D_FORTIFY_SOURCE=3 -O3 -std=c++23 -Wall -Wextra -Wpedantic -Wno-unused-command-line-argument -static-libgcc -static-libstdc++ -fuse-ld=lld -fPIC -fPIE -flto -fno-reorder-blocks-and-partition -Wl,--emit-relocs"
+        "CMAKE_CXX_FLAGS": "-D_FORTIFY_SOURCE=3 -O3 -std=c++23 -Wall -Wextra -Wpedantic -Wno-unused-command-line-argument -static-libgcc -static-libstdc++ -fuse-ld=lld -fPIC -fPIE -flto -Wl,--emit-relocs"
       }
     },
     {
